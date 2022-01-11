@@ -94,6 +94,12 @@ body {
   transition: var(--ppp-transition);
 }
 
+.ppp-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .ppp-underline {
   text-decoration: none !important;
 }
