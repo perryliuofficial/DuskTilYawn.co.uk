@@ -104,6 +104,26 @@ body {
   text-decoration: none !important;
 }
 
+.btn.ppp-twitch {
+  background-color: #6441a5;
+  color: var(--ppp-white);
+}
+.btn.ppp-twitch:hover {
+  background-color: #4a307a;
+  color: var(--ppp-white);
+}
+
+.btn.ppp-youtube {
+  background-color: #FF0000;
+  color: var(--ppp-white)
+}
+.btn.ppp-youtube:hover {
+  background-color: #c80303;
+  color: var(--ppp-white)
+}
+
+
+
 .ppp-orange-red {
   color: var(--ppp-red);
 }
