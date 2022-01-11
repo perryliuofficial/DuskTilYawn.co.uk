@@ -52,38 +52,34 @@
     </nav>
     <div class="container ppp-fade" id="" style="height: 90%;">
       <div class="row container h-100">
-        <div class="col-12 col-lg-6 d-flex align-items-center h-100 ppp-cursor">
-          <div>
-            <span class="display-1 ppp-orange-red">Hi, I'm Perry.</span><br>
-            <span class="h3 ppp-white">I'm currently creating digital experiences. Open to software development opportunities.</span><br>
-            <div class="ppp-white">
-              <span class="ppp-space-pre ppp-text-hover"><i class="bi bi-arrow-right-short"></i>Python </span>
-              <span class="ppp-space-pre ppp-text-hover"><i class="bi bi-arrow-right-short"></i>React </span>
-              <span class="ppp-space-pre ppp-text-hover"><i class="bi bi-arrow-right-short"></i>C# </span>
-              <span class="ppp-space-pre ppp-text-hover"><i class="bi bi-arrow-right-short"></i>C </span>
-              <span class="ppp-space-pre ppp-text-hover"><i class="bi bi-arrow-right-short"></i>Java </span>
-              <span class="ppp-space-pre ppp-text-hover"><i class="bi bi-arrow-right-short"></i>Javascript </span>
-              <span class="ppp-space-pre ppp-text-hover"><i class="bi bi-arrow-right-short"></i>Typescript </span>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 d-none d-lg-block h-100">
+        <div class="col-12 col-lg-6 d-flex align-items-center h-100">
           <div class="d-flex align-items-center h-100">
             <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed"></div>
+            <div id="twitch-embed-aplatypusbot"></div>
 
             <!-- Load the Twitch embed JavaScript file -->
             <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
             <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
             <script type="text/javascript">
-              new Twitch.Embed("twitch-embed", {
-                width: 854,
-                height: 480,
-                src: "https://player.twitch.tv/?channel=aplatypusbot&parent=localhost",
+              new Twitch.Embed("twitch-embed-aplatypusbot", {
                 channel: "APlatypusBot",
                 // Only needed if this page is going to be embedded on other websites
-                parent: ["perryliu.co.uk","www.perryliu.co.uk"]
+                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
+              });
+            </script>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 d-flex align-items-center h-100">
+          <div class="d-flex align-items-center h-100">
+            <!-- Add a placeholder for the Twitch embed -->
+            <div id="twitch-embed-folderzhd"></div>
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+            <script type="text/javascript">
+              new Twitch.Embed("twitch-embed-folderzhd", {
+                channel: "folderzhd",
+                // Only needed if this page is going to be embedded on other websites
+                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
               });
             </script>
           </div>
