@@ -22,72 +22,6 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-  <section class="ppp-vh" id="">
-    <!-- Nav -->
-    <nav class="navbar sticky-top navbar-expand ppp-nav" id="ppp-nav">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="ppp-orange-red ppp-underline ppp-red-hover" href="#top"><p class="mb-0 h3" id="">Perry Liu</p></a>
-            </li>
-          </ul>
-          <!-- Right Nav -->
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link py-0 ppp-orange-red ppp-red-hover" id="" href="https://www.linkedin.com/in/perryliuofficial/" target=”_blank”><i class="bi bi-linkedin fs-3"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link py-0 ppp-orange-red ppp-red-hover" id="" href="https://github.com/perryliuofficial/" target=”_blank”><i class="bi bi-github fs-3"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link py-0 fs-3 ppp-orange-red ppp-red-hover" id="" href="/assets/Perry%20CV.pdf" target=”_blank”>CV</i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container ppp-fade" id="" style="height: 90%;">
-      <div class="row container h-100">
-        <div class="col-12 col-lg-6 d-flex align-items-center h-100">
-          <div class="d-flex align-items-center h-100">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed-aplatypusbot"></div>
-
-            <!-- Load the Twitch embed JavaScript file -->
-            <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-            <script type="text/javascript">
-              new Twitch.Embed("twitch-embed-aplatypusbot", {
-                channel: "APlatypusBot",
-                // Only needed if this page is going to be embedded on other websites
-                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
-              });
-            </script>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 d-flex align-items-center h-100">
-          <div class="d-flex align-items-center h-100">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed-folderzhd"></div>
-            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-            <script type="text/javascript">
-              new Twitch.Embed("twitch-embed-folderzhd", {
-                channel: "folderzhd",
-                // Only needed if this page is going to be embedded on other websites
-                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
-              });
-            </script>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
   <section class="ppp-vh-min" id="">
     <nav class="navbar sticky-top navbar-expand ppp-nav" id="">
       <div class="container-fluid">
@@ -115,233 +49,61 @@
         </div>
       </div>
     </nav>
-
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <div class="container py-5" id="" style="height: 90%;">
-      <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4 py-5">
-        <div class="col">
-          <div class="card h-100 ppp-card shadow ppp-card-teal">
-            <div class="card-body">
-              <h5 class="card-title">Vodafone - NB IoT <span class="badge bg-light text-dark">WIP</span></h5>
-              <p class="card-text">Currently developing new prototypes and use cases for Narrow Band Internet of Things.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>C <i class="bi bi-arrow-right-short"></i>Python </span>
-              <a role="button" class="btn disabled ppp-disabled" target="_blank" href=""><i class="bi bi-globe"></i></a>
-            </div>
+      <div class="row row-cols-1 row-cols-xl-2 g-4 py-5">
+          <!-- ############################################################### -->
+          <!-- ############################################################### -->
+          <!-- ############################################################### -->
+          <div class="d-flex align-items-center h-100 mx-auto">
+            <!-- Add a placeholder for the Twitch embed -->
+            <div id="twitch-embed-aplatypusbot" class="mx-auto"></div>
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+            <script type="text/javascript">
+              new Twitch.Embed("twitch-embed-aplatypusbot", {
+                channel: "aplatypusbot",
+                width: 480,
+                height: 270,
+                // Only needed if this page is going to be embedded on other websites
+                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
+              });
+            </script>
           </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow ppp-card-purple">
-            <div class="card-body">
-              <h5 class="card-title">North Paddington Food Bank <span class="badge bg-light text-dark">WIP</span></h5>
-              <p class="card-text">Currently revamping charity website as part of the Vodafone VolunTeams initiative.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>WordPress <i class="bi bi-arrow-right-short"></i>Javascript </span>
-              <a role="button" class="btn float-end ms-1 disabled ppp-disabled" target="_blank" href="https://github.com/ediprogsoc/ediprogsoc.github.io"><i class="bi bi-github"></i></a>
-              <a role="button" class="btn float-end ms-1 disabled ppp-disabled" target="_blank" href="https://ediprogsoc.co.uk/"><i class="bi bi-globe"></i></a>
-            </div>
+          <!-- ############################################################### -->
+          <!-- ############################################################### -->
+          <!-- ############################################################### -->
+          <div class="d-flex align-items-center h-100 mx-auto">
+            <!-- Add a placeholder for the Twitch embed -->
+            <div id="twitch-embed-folderzhd" class="mx-auto"></div>
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+            <script type="text/javascript">
+              new Twitch.Embed("twitch-embed-folderzhd", {
+                channel: "folderzhd",
+                width: 480,
+                height: 270,
+                // Only needed if this page is going to be embedded on other websites
+                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
+              });
+            </script>
           </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow">
-            <div class="card-body">
-              <h5 class="card-title">Music Timer for Spotify</h5>
-              <p class="card-text">A timer that plays music from your Spotify account.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Flask <i class="bi bi-arrow-right-short"></i>Spotify API </span>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/perryliuofficial/MusicTimerForSpotify"><i class="bi bi-github"></i></a>
-            </div>
+          <!-- ############################################################### -->
+          <!-- ############################################################### -->
+          <!-- ############################################################### -->
+          <div class="d-flex align-items-center h-100 mx-auto">
+            <!-- Add a placeholder for the Twitch embed -->
+            <div id="twitch-embed-porkoscratching" class="mx-auto"></div>
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+            <script type="text/javascript">
+              new Twitch.Embed("twitch-embed-porkoscratching", {
+                channel: "porkoscratching",
+                width: 480,
+                height: 270,
+                // Only needed if this page is going to be embedded on other websites
+                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
+              });
+            </script>
           </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow">
-            <div class="card-body">
-              <h5 class="card-title">Weather App</h5>
-              <p class="card-text">Simple weather app using openweathermap.org's API.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>React <i class="bi bi-arrow-right-short"></i>OWM API </span>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://perry-react-weather-app.netlify.app/"><i class="bi bi-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow ppp-card-teal">
-            <div class="card-body">
-              <h5 class="card-title">Vodafone - VCC Raspberry Pi</h5>
-              <p class="card-text">Interactive workshop teaching employees how Raspberry Pis work and how to use one.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Raspberry Pi <i class="bi bi-arrow-right-short"></i>Python </span>
-              <a role="button" class="btn disabled ppp-disabled" target="_blank" href="https://www.katacoda.com/vcc-crashcourse"><i class="bi bi-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow">
-            <div class="card-body">
-              <h5 class="card-title">Website v4</h5>
-              <p class="card-text">You are here. Revamped site with Bootstrap 5.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Bootstrap <i class="bi bi-arrow-right-short"></i>Javascript </span>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/perryliuofficial/perryliuofficial.github.io"><i class="bi bi-github"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow ppp-card-teal">
-            <div class="card-body">
-              <h5 class="card-title">Vodafone - VCC Crash Course</h5>
-              <p class="card-text">4-week Python crash course to bring new joiners up to speed and to provide business youth cohort with additional training.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Python </span>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://www.katacoda.com/vcc-crashcourse"><i class="bi bi-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow ppp-card-teal">
-            <div class="card-body">
-              <h5 class="card-title">Vodafone - Digital Asset Broker</h5>
-              <p class="card-text">Worked on control panel using tkinter for internal demo.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>tkinter <i class="bi bi-arrow-right-short"></i>Python </span>
-              <a role="button" class="btn disabled ppp-disabled" target="_blank" href="https://www.katacoda.com/vcc-crashcourse"><i class="bi bi-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow ppp-card-teal">
-            <div class="card-body">
-              <h5 class="card-title">Vodafone - Nova</h5>
-              <p class="card-text">Worked on an internal admin dashboard according to UI designer specifications.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>React <i class="bi bi-arrow-right-short"></i>MUI </span>
-              <a role="button" class="btn disabled ppp-disabled" target="_blank" href=""><i class="bi bi-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow">
-            <div class="card-body">
-              <h5 class="card-title">Website v3</h5>
-              <p class="card-text">Firebase integration and replaced Bootstrap with Materialize.css.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Firebase <i class="bi bi-arrow-right-short"></i>Javascript </span>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/perryliuofficial/v3.perryliu.co.uk"><i class="bi bi-github"></i></a>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://v3.perryliu.co.uk/"><i class="bi bi-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow ppp-card-purple">
-            <div class="card-body">
-              <h5 class="card-title">Edinburgh Programming Society</h5>
-              <p class="card-text">Society website.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Bootstrap </span>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/ediprogsoc/ediprogsoc.github.io"><i class="bi bi-github"></i></a>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://ediprogsoc.co.uk/"><i class="bi bi-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow ppp-card-purple">
-            <div class="card-body">
-              <h5 class="card-title">Tic-Tac-Toe Tutorial</h5>
-              <p class="card-text">Step-by-step tutorial for coding Tic-Tac-Toe in Python. Developed for Edinburgh Programming Society.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Python </span>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/ediprogsoc/Tic-Tac-Toe"><i class="bi bi-github"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow">
-            <div class="card-body">
-              <h5 class="card-title">Bullet Maze</h5>
-              <p class="card-text">Play as a legally distinct pellet-eating ghostbuster who is definitely not Pac-Man, where the pellets are your bullets.</p>
-            </div>
-            <div class="card-footer">
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>C# <i class="bi bi-arrow-right-short"></i>Unity </span>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/perryliuofficial/Bullet-Maze-Game-Jam"><i class="bi bi-github"></i></a>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://perryliuofficial.itch.io/bullet-maze-game-jam"><i class="bi bi-controller"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow">
-            <div class="card-body">
-              <h5 class="card-title">GitHub Pages Launch Checklist</h5>
-              <p class="card-text">Checklist for deploying static sites, including DNS records and asset optimisation.</p>
-            </div>
-            <div class="card-footer">
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/perryliuofficial/GitHub-Pages-Launch-Checklist"><i class="bi bi-github"></i></a>
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Markdown </span>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow">
-            <div class="card-body">
-              <h5 class="card-title">Website v2</h5>
-              <p class="card-text">Redesigned Bootstrap 4 site.</p>
-            </div>
-            <div class="card-footer">
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/perryliuofficial/v2.perryliu.co.uk"><i class="bi bi-github"></i></a>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://v2.perryliu.co.uk/"><i class="bi bi-globe"></i></a>
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Bootstrap <i class="bi bi-arrow-right-short"></i>Javascript </span>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow">
-            <div class="card-body">
-              <h5 class="card-title">Apocalypse Royale</h5>
-              <p class="card-text">The zombie apocalypse is here and the only one willing to pay for a rescue mission is a TV executive. Handle supply drops, nudge survivors, and manage the filming of this survival battle royale.</p>
-            </div>
-            <div class="card-footer">
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/perryliuofficial/Apocalypse-Royale"><i class="bi bi-github"></i></a>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://perryliuofficial.itch.io/apocalypse-royale"><i class="bi bi-controller"></i></a>
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>GML </span>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow">
-            <div class="card-body">
-              <h5 class="card-title">Final Grade Calculator</h5>
-              <p class="card-text">Simple calculator to find out what you need to score in your final exam to pass the whole course.</p>
-            </div>
-            <div class="card-footer">
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/perryliuofficial/final-grade-calculator"><i class="bi bi-github"></i></a>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://www.perryliu.co.uk/final-grade-calculator/"><i class="bi bi-globe"></i></a>
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Javascript </span>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 ppp-card shadow">
-            <div class="card-body">
-              <h5 class="card-title">Website v1</h5>
-              <p class="card-text">Bootstrap 4 site.</p>
-            </div>
-            <div class="card-footer">
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://github.com/perryliuofficial/v1.perryliu.co.uk"><i class="bi bi-github"></i></a>
-              <a role="button" class="btn float-end ms-1" target="_blank" href="https://v1.perryliu.co.uk/"><i class="bi bi-globe"></i></a>
-              <span class="ps-0 ppp-card-footer-text"><i class="bi bi-arrow-right-short"></i>Bootstrap <i class="bi bi-arrow-right-short"></i>Javascript </span>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
