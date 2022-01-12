@@ -1,3 +1,4 @@
+// marks items as red if their class is the same as current UK time (does not account for summer time)
 function updatePage() {
     var today = new Date();
     var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -6,24 +7,18 @@ function updatePage() {
     var minutes = today.getMinutes();
     var hour = today.getHours();
     if (minutes < 30) 
-        minutes = 0;
+        minutes = "00";
     else minutes = 30;
-    console.log(day)
-    console.log(hour)
-    console.log(minutes)
     var searchTime = [yyyy,mm,day,hour,minutes].join('');
-    console.log(searchTime)
-
-        
-    var c = document.getElementById(searchTime);
-    c.style.color= "red";
-
+    var x = document.getElementsByClassName(searchTime);
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.color= "red";
     }
-
+    }
     function startUpdate() 
     {
         updatePage();
-        window.setInterval(updatePage, 10 * 1000);
+        window.setInterval(updatePage, 60 * 1000);
     }
-
 window.onload=startUpdate;
