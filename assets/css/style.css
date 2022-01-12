@@ -29,7 +29,7 @@ html {
 }
 
 a:hover {
-  color: var(--ppp-blue-shadow);
+  color: var(--ppp-blue-shadow) !important;
 }
 
 @keyframes slide {
@@ -71,13 +71,13 @@ body {
   background-position: -0.8px -0.8px, -0.8px -0.8px, -0.4px -0.4px, -0.4px -0.4px; */
 }
 
-/* .ppp-nav {
+.ppp-nav {
   background-color: var(--ppp-blue-nav);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   box-shadow: 0 10px 30px -10px var(--ppp-blue-shadow);
   transition: var(--ppp-transition);
-} */
+}
 
 .ppp-underline {
   text-decoration: none !important;
