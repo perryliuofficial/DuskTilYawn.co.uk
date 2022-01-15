@@ -27,7 +27,7 @@ html {
 
 html[data-theme='dark'] {
   scroll-behavior: smooth;
-  --ppp-white:#F7F7FF;
+  --ppp-white:#000000;
   --ppp-blue:#0C6291;
   --ppp-blue-hover:#0a4869;
   --ppp-blue-bg:#f7f7ff0c;
@@ -44,6 +44,15 @@ html[data-theme='dark'] {
 
 /* document.documentElement.setAttribute('data-theme', 'dark')
 document.documentElement.setAttribute('data-theme', 'light') */
+
+body {
+  background-color: var(--ppp-blue);
+  opacity: 1;
+  background-attachment: fixed;
+  /* background-image:  linear-gradient(#f7f7ff0c 0.8px, transparent 0.8px), linear-gradient(90deg, #f7f7ff0c 0.8px, transparent 0.8px), linear-gradient(#f7f7ff0c 0.4px, transparent 0.4px), linear-gradient(90deg, #f7f7ff0c 0.4px, #121F2B 0.4px);
+  background-size: 20px 20px, 20px 20px, 4px 4px, 4px 4px;
+  background-position: -0.8px -0.8px, -0.8px -0.8px, -0.4px -0.4px, -0.4px -0.4px; */
+}
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -95,15 +104,6 @@ a:hover {
   animation-duration:10s;
 }
 
-body {
-  background-color: var(--ppp-blue);
-  opacity: 1;
-  background-attachment: fixed;
-  /* background-image:  linear-gradient(#f7f7ff0c 0.8px, transparent 0.8px), linear-gradient(90deg, #f7f7ff0c 0.8px, transparent 0.8px), linear-gradient(#f7f7ff0c 0.4px, transparent 0.4px), linear-gradient(90deg, #f7f7ff0c 0.4px, #121F2B 0.4px);
-  background-size: 20px 20px, 20px 20px, 4px 4px, 4px 4px;
-  background-position: -0.8px -0.8px, -0.8px -0.8px, -0.4px -0.4px, -0.4px -0.4px; */
-}
-
 .ppp-nav {
   background-color: var(--ppp-blue-nav);
   backdrop-filter: blur(5px);
@@ -132,6 +132,21 @@ body {
 .btn.ppp-youtube:hover {
   background-color: var(--ppp-youtube-hover);
   color: var(--ppp-white)
+}
+
+.btn.ppp-dark-toggle {
+  background-color: var(--ppp-twitch);
+  color: var(--ppp-white);
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+}
+.btn.ppp-dark-toggle:hover {
+  background-color: var(--ppp-twitch-hover);
+  color: var(--ppp-white);
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
 }
 
 .ppp-white {
