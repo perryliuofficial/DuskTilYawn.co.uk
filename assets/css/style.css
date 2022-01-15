@@ -121,35 +121,29 @@ a:hover {
 
 .btn.ppp-twitch {
   background-color: var(--ppp-twitch);
-  color: var(--ppp-white);
+  color: var(--ppp-text);
 }
 .btn.ppp-twitch:hover {
   background-color: var(--ppp-twitch-hover);
-  color: var(--ppp-white);
+  color: var(--ppp-text);
 }
 
 .btn.ppp-youtube {
   background-color: var(--ppp-youtube);
-  color: var(--ppp-white)
+  color: var(--ppp-text)
 }
 .btn.ppp-youtube:hover {
   background-color: var(--ppp-youtube-hover);
-  color: var(--ppp-white)
+  color: var(--ppp-text)
 }
 
 .btn.ppp-dark-toggle {
   background-color: var(--ppp-toggle);
-  color: var(--ppp-white);
-  position: fixed;
-  right: 2%;
-  bottom: 5%;
+  color: var(--ppp-text);
 }
 .btn.ppp-dark-toggle:hover {
   background-color: var(--ppp-toggle-hover);
-  color: var(--ppp-white);
-  position: fixed;
-  right: 2%;
-  bottom: 5%;
+  color: var(--ppp-text);
 }
 
 .ppp-text {
