@@ -1,77 +1,67 @@
 [
     {
         "name":"APlatypusBot",
-        "twitch":"https://www.twitch.tv/aplatypusbot",
-        "youtube":"https://www.youtube.com/channel/UCz6xMvaHKKObzZH98mg2fsQ",
-        "entry1Class":"202203031300", "entry1Date":"1:00pm","entry1Game":"TBC",
-        "entry2Class":"ppp-hidden", "entry2Date":"","entry2Game":"",
-        "entry3Class":"ppp-hidden", "entry3Date":"","entry3Game":"",
-        "entry4Class":"ppp-hidden", "entry4Date":"","entry4Game":"",
-        "entry5Class":"ppp-hidden", "entry5Date":"","entry5Game":"",
-        "entry6Class":"ppp-hidden", "entry6Date":"","entry6Game":"",
-        "entry7Class":"ppp-hidden", "entry7Date":"","entry7Game":"",
-        "entry8Class":"ppp-hidden", "entry8Date":"","entry8Game":"",
-        "entry9Class":"ppp-hidden", "entry9Date":"","entry9Game":"",
-        "entry10Class":"ppp-hidden", "entry10Date":"","entry10Game":"",
-        "entry11Class":"202203040000", "entry11Date":"0:00am","entry11Game":"TBC",
-        "entry12Class":"ppp-hidden", "entry12Date":"","entry12Game":"",
-        "entry13Class":"ppp-hidden", "entry13Date":"","entry13Game":"",
-        "entry14Class":"ppp-hidden", "entry14Date":"","entry14Game":"",
-        "entry15Class":"ppp-hidden", "entry15Date":"","entry15Game":"",
-        "entry16Class":"ppp-hidden", "entry16Date":"","entry16Game":"",
-        "entry17Class":"ppp-hidden", "entry17Date":"","entry17Game":"",
-        "entry18Class":"ppp-hidden", "entry18Date":"","entry18Game":"",
-        "entry19Class":"ppp-hidden", "entry19Date":"","entry19Game":"",
-        "entry20Class":"ppp-hidden", "entry20Date":"","entry20Game":""
+        "links":{
+            "twitch"  :"https://www.twitch.tv/aplatypusbot",
+            "youtube" :"https://www.youtube.com/channel/UCz6xMvaHKKObzZH98mg2fsQ"
+        },
+        "timetable":{
+            "2022":{
+                "1":{
+                    "name":"GTA",
+                    "start":"13:00",
+                    "end":"17:00"
+                },
+                "2":{
+                    "name":"Among Us",
+                    "start":"17:00",
+                    "end":"22:00"
+                }
+            }    
+        }
     },
     {
         "name":"FOLDERzHD",
-        "twitch":"https://www.twitch.tv/FOLDERzHD",
-        "youtube":"https://www.youtube.com/channel/UCMwzGBVsIDDIttL3hC-bOPQ",
-        "entry1Class":"202203031300", "entry1Date":"1:00pm","entry1Game":"TBC",
-        "entry2Class":"ppp-hidden", "entry2Date":"","entry2Game":"",
-        "entry3Class":"ppp-hidden", "entry3Date":"","entry3Game":"",
-        "entry4Class":"ppp-hidden", "entry4Date":"","entry4Game":"",
-        "entry5Class":"ppp-hidden", "entry5Date":"","entry5Game":"",
-        "entry6Class":"ppp-hidden", "entry6Date":"","entry6Game":"",
-        "entry7Class":"ppp-hidden", "entry7Date":"","entry7Game":"",
-        "entry8Class":"ppp-hidden", "entry8Date":"","entry8Game":"",
-        "entry9Class":"ppp-hidden", "entry9Date":"","entry9Game":"",
-        "entry10Class":"ppp-hidden", "entry10Date":"","entry10Game":"",
-        "entry11Class":"202203040000", "entry11Date":"0:00am","entry11Game":"TBC",
-        "entry12Class":"ppp-hidden", "entry12Date":"","entry12Game":"",
-        "entry13Class":"ppp-hidden", "entry13Date":"","entry13Game":"",
-        "entry14Class":"ppp-hidden", "entry14Date":"","entry14Game":"",
-        "entry15Class":"ppp-hidden", "entry15Date":"","entry15Game":"",
-        "entry16Class":"ppp-hidden", "entry16Date":"","entry16Game":"",
-        "entry17Class":"ppp-hidden", "entry17Date":"","entry17Game":"",
-        "entry18Class":"ppp-hidden", "entry18Date":"","entry18Game":"",
-        "entry19Class":"ppp-hidden", "entry19Date":"","entry19Game":"",
-        "entry20Class":"ppp-hidden", "entry20Date":"","entry20Game":""
+        "links":{
+            "twitch":"https://www.twitch.tv/FOLDERzHD",
+            "youtube":"https://www.youtube.com/channel/UCMwzGBVsIDDIttL3hC-bOPQ"
+        },
+        "timetable":{
+            "2022":{
+                "1":{
+                    "name":"MW2",
+                    "start":"13:00",
+                    "end":"20:00"
+                },
+                "2":{
+                    "name":"Minecraft",
+                    "start":"20:00",
+                    "end":"23:00"
+                }
+            }    
+        }
+        
+        
     },
     {
         "name":"test",
-        "twitch":"https://www.twitch.tv/test",
-        "youtubeClass":"ppp-hidden",
-        "entry1Class":"202203031300", "entry1Date":"1:00pm","entry1Game":"TBC",
-        "entry2Class":"ppp-hidden", "entry2Date":"","entry2Game":"",
-        "entry3Class":"ppp-hidden", "entry3Date":"","entry3Game":"",
-        "entry4Class":"ppp-hidden", "entry4Date":"","entry4Game":"",
-        "entry5Class":"ppp-hidden", "entry5Date":"","entry5Game":"",
-        "entry6Class":"ppp-hidden", "entry6Date":"","entry6Game":"",
-        "entry7Class":"ppp-hidden", "entry7Date":"","entry7Game":"",
-        "entry8Class":"ppp-hidden", "entry8Date":"","entry8Game":"",
-        "entry9Class":"ppp-hidden", "entry9Date":"","entry9Game":"",
-        "entry10Class":"ppp-hidden", "entry10Date":"","entry10Game":"",
-        "entry11Class":"202203040000", "entry11Date":"0:00am","entry11Game":"TBC",
-        "entry12Class":"ppp-hidden", "entry12Date":"","entry12Game":"",
-        "entry13Class":"ppp-hidden", "entry13Date":"","entry13Game":"",
-        "entry14Class":"ppp-hidden", "entry14Date":"","entry14Game":"",
-        "entry15Class":"ppp-hidden", "entry15Date":"","entry15Game":"",
-        "entry16Class":"ppp-hidden", "entry16Date":"","entry16Game":"",
-        "entry17Class":"ppp-hidden", "entry17Date":"","entry17Game":"",
-        "entry18Class":"ppp-hidden", "entry18Date":"","entry18Game":"",
-        "entry19Class":"ppp-hidden", "entry19Date":"","entry19Game":"",
-        "entry20Class":"ppp-hidden", "entry20Date":"","entry20Game":""
+        "links":{
+            "twitch":"https://www.twitch.tv/test",
+            "youtubeClass":"ppp-hidden"
+        },
+        "timetable":{
+            "2022":{
+                "1":{
+                    "name":"MW2",
+                    "start":"13:00",
+                    "end":"20:00"
+                },
+                "2":{
+                    "name":"Minecraft",
+                    "start":"20:00",
+                    "end":"23:00"
+                }
+            }   
+        }
     }
 ]
