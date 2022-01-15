@@ -8,61 +8,81 @@
   --ppp-transition: 0.3s;
 } */
 
-html {
+html[data-theme='light'] {
+  /*Light Theme*/
   scroll-behavior: smooth;
-  --ppp-white:#F7F7FF;
-  --ppp-blue:#0C6291;
-  --ppp-blue-hover:#0a4869;
-  --ppp-blue-bg:#f7f7ff0c;
-  --ppp-blue-nav:#121f2b00;
-  --ppp-blue-shadow:#0d1720;
+  --ppp-text-hover:#F7F7FF;
+  --ppp-text:#0d1720;
+
+  --ppp-bg:#f8af6e;
   --ppp-transition: 0.3s;
-  --ppp-bg-colour-1:#a63446;
-  --ppp-bg-colour-2:#0c6291;
+  --ppp-bg-colour-1:#fcb972;
+  --ppp-bg-colour-2:#ffd787;
+
+  --ppp-scrollbar: #359fd8;
+  --ppp-scrollbar-hover: #0a4869;
+  --ppp-shadow:#0d1720;
   --ppp-twitch:#6441a5;
   --ppp-twitch-hover: #4a307a;
   --ppp-youtube:#FF0000;
   --ppp-youtube-hover:#c80303;
+  --ppp-toggle:#FF0000;
+  --ppp-toggle-hover:#c80303;
+  --ppp-border: #000000;
 }
 
 html[data-theme='dark'] {
   scroll-behavior: smooth;
-  --ppp-white:#F7F7FF;
-  --ppp-blue:#0C6291;
-  --ppp-blue-hover:#0a4869;
-  --ppp-blue-bg:#f7f7ff0c;
-  --ppp-blue-nav:#121f2b00;
-  --ppp-blue-shadow:#0d1720;
+  --ppp-text-hover:#000000;
+  --ppp-text:#F7F7FF;
+
+  --ppp-bg:#01084f;
   --ppp-transition: 0.3s;
-  --ppp-bg-colour-1:#a63446;
-  --ppp-bg-colour-2:#0c6291;
+  --ppp-bg-colour-1:#631e50;
+  --ppp-bg-colour-2:#ff7954;
+
+  --ppp-scrollbar: #359fd8;
+  --ppp-scrollbar-hover: #0a4869;
+  --ppp-shadow:#0d1720;
   --ppp-twitch:#6441a5;
   --ppp-twitch-hover: #4a307a;
   --ppp-youtube:#FF0000;
   --ppp-youtube-hover:#c80303;
+  --ppp-toggle:#FF0000;
+  --ppp-toggle-hover:#c80303;
+  --ppp-border: #ffffff;
 }
 
 /* document.documentElement.setAttribute('data-theme', 'dark')
 document.documentElement.setAttribute('data-theme', 'light') */
+
+body {
+  background-color: var(--ppp-bg);
+  opacity: 1;
+  background-attachment: fixed;
+  /* background-image:  linear-gradient(#f7f7ff0c 0.8px, transparent 0.8px), linear-gradient(90deg, #f7f7ff0c 0.8px, transparent 0.8px), linear-gradient(#f7f7ff0c 0.4px, transparent 0.4px), linear-gradient(90deg, #f7f7ff0c 0.4px, #121F2B 0.4px);
+  background-size: 20px 20px, 20px 20px, 4px 4px, 4px 4px;
+  background-position: -0.8px -0.8px, -0.8px -0.8px, -0.4px -0.4px, -0.4px -0.4px; */
+}
 
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: var(--ppp-white);
+  background-color: var(--ppp-text);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--ppp-blue);
+  background-color: var(--ppp-scrollbar);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--ppp-blue-hover);
+  background-color: var(--ppp-scrollbar-hover);
 }
 
 a:hover {
-  color: var(--ppp-blue-shadow) !important;
+  color: var(--ppp-text-hover) !important;
 }
 
 @keyframes slide {
@@ -95,21 +115,17 @@ a:hover {
   animation-duration:10s;
 }
 
-body {
-  background-color: var(--ppp-blue);
-  opacity: 1;
-  background-attachment: fixed;
-  /* background-image:  linear-gradient(#f7f7ff0c 0.8px, transparent 0.8px), linear-gradient(90deg, #f7f7ff0c 0.8px, transparent 0.8px), linear-gradient(#f7f7ff0c 0.4px, transparent 0.4px), linear-gradient(90deg, #f7f7ff0c 0.4px, #121F2B 0.4px);
-  background-size: 20px 20px, 20px 20px, 4px 4px, 4px 4px;
-  background-position: -0.8px -0.8px, -0.8px -0.8px, -0.4px -0.4px, -0.4px -0.4px; */
-}
-
 .ppp-nav {
-  background-color: var(--ppp-blue-nav);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  box-shadow: 0 10px 30px -10px var(--ppp-blue-shadow);
+  background-color: var(--ppp-bg-colour-1);
+  box-shadow: 0 10px 30px -10px var(--ppp-shadow);
   transition: var(--ppp-transition);
+}
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)){
+  .ppp-nav {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
 }
 
 .ppp-underline {
@@ -118,24 +134,33 @@ body {
 
 .btn.ppp-twitch {
   background-color: var(--ppp-twitch);
-  color: var(--ppp-white);
+  color: var(--ppp-text);
 }
 .btn.ppp-twitch:hover {
   background-color: var(--ppp-twitch-hover);
-  color: var(--ppp-white);
+  color: var(--ppp-text);
 }
 
 .btn.ppp-youtube {
   background-color: var(--ppp-youtube);
-  color: var(--ppp-white)
+  color: var(--ppp-text)
 }
 .btn.ppp-youtube:hover {
   background-color: var(--ppp-youtube-hover);
-  color: var(--ppp-white)
+  color: var(--ppp-text)
 }
 
-.ppp-white {
-  color:var(--ppp-white);
+.btn.ppp-dark-toggle {
+  background-color: var(--ppp-toggle);
+  color: var(--ppp-text);
+}
+.btn.ppp-dark-toggle:hover {
+  background-color: var(--ppp-toggle-hover);
+  color: var(--ppp-text);
+}
+
+.ppp-text {
+  color:var(--ppp-text);
 }
 
 .ppp-vh {
@@ -144,4 +169,16 @@ body {
 
 .ppp-vh-min {
   min-height:100vh;
+}
+
+.ppp-border-colour {
+  border-color: var(--ppp-border) !important;
+}
+
+.ppp-hidden {
+  display: none;
+}
+
+.ppp-white {
+  color: white !important;
 }
