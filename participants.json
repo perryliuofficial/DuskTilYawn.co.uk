@@ -1,0 +1,67 @@
+[
+    {
+        "name":"APlatypusBot",
+        "links":{
+            "twitch"  :"https://www.twitch.tv/aplatypusbot",
+            "youtube" :"https://www.youtube.com/channel/UCz6xMvaHKKObzZH98mg2fsQ"
+        },
+        "timetable":{
+            "2022":{
+                "1":{
+                    "name":"GTA",
+                    "start":"13:00",
+                    "end":"17:00"
+                },
+                "2":{
+                    "name":"Among Us",
+                    "start":"17:00",
+                    "end":"22:00"
+                }
+            }    
+        }
+    },
+    {
+        "name":"FOLDERzHD",
+        "links":{
+            "twitch":"https://www.twitch.tv/FOLDERzHD",
+            "youtube":"https://www.youtube.com/channel/UCMwzGBVsIDDIttL3hC-bOPQ"
+        },
+        "timetable":{
+            "2022":{
+                "1":{
+                    "name":"MW2",
+                    "start":"13:00",
+                    "end":"20:00"
+                },
+                "2":{
+                    "name":"Minecraft",
+                    "start":"20:00",
+                    "end":"23:00"
+                }
+            }    
+        }
+        
+        
+    },
+    {
+        "name":"test",
+        "links":{
+            "twitch":"https://www.twitch.tv/test",
+            "youtubeClass":"ppp-hidden"
+        },
+        "timetable":{
+            "2022":{
+                "1":{
+                    "name":"MW2",
+                    "start":"13:00",
+                    "end":"20:00"
+                },
+                "2":{
+                    "name":"Minecraft",
+                    "start":"20:00",
+                    "end":"23:00"
+                }
+            }   
+        }
+    }
+]

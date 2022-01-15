@@ -8,7 +8,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:type" content="website">
   <meta name="description" content="We're a group of friends running an annual 24-hour charity gaming livestream.">
-  <meta property="og:image" content="assets/img/landing/perry.png">
+  <meta property="og:image" content="assets/img/DuskTilYawn.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="180x180" href="assets/img/apple-touch-icon.png">
@@ -25,35 +25,43 @@
   <div class="bg"></div>
   <div class="bg bg2"></div>
   <div class="bg bg3"></div>
-  <button class="btn me-2 ppp-dark-toggle" id="darkToggle" role="button" aria-disabled="true" onclick="darkToggle()"><i class="bi bi-lightbulb"></i></button>
-  <section class="ppp-vh" id="">
-    <!-- Nav -->
-    <nav class="navbar fixed-top navbar-expand ppp-nav" id="">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <p class="mb-0 display-6 ppp-text" id="">£3932 raised</p>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link py-0 ppp-text" id="" href="/history">Previous Years</a>
-            </li>
-          </ul>
-        </div>
+  <!-- Nav -->
+  <nav class="navbar fixed-top navbar-expand ppp-nav" id="">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="assets/img/DuskTilYawn.png" alt="" width="auto" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link py-0 ppp-text" id="" href="/donate">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-0 ppp-text" id="" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link py-0 ppp-text" id="" href="/history">Previous Years</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <button class="btn me-2 ppp-dark-toggle ppp-white" id="darkToggle" role="button" aria-disabled="true" onclick="darkToggle()"><i class="bi bi-lightbulb"></i></button>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <section class="ppp-vh" id="">
     <div class="container" id="" style="height: 90%;">
       <div class="row container h-100">
-        <div class="col-12 d-flex align-items-center h-100">
+        <div class="col-12 d-flex align-items-center h-100 pt-5">
           <div class="ppp-text">
-            <img src="assets/img/DuskTilYawn.png" alt="" height="auto" width="30%"><br>
-            <span class="display-1">24hr Charity Gaming Livestream</span><br>
-            <span class="h3">1pm 3rd March - 4th March 2022 (UK)</span><br>
+            <img src="assets/img/DuskTilYawn.png" alt="" width="50%" height="auto"><br><br>
+            <span class="h1">24hr Charity Gaming Livestream for ???</span><br>
+            <strong>1pm 3rd March - 4th March 2022 (UK)</strong><br>
             <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20220303T130000&p1=136" target="_blank" class="ppp-text">Convert Timezone</a><br><br>
             <p class="">Alex D • Alex F • Alisha • Ben • Dan • David • Frankie • Grace • Henry • Katie • Perry • Zak</p>
           </div>
@@ -65,164 +73,17 @@
     <!-- Load the Twitch embed JavaScript file -->
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <div class="container">
-    <div class="row container" id="" style="height: 90%;">
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <div class="col-12 col-lg-8 d-flex d-none d-lg-block align-items-center h-100 py-5">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed-aplatypusbot" class="mx-auto"></div>
-            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-            <script type="text/javascript">
-              new Twitch.Embed("twitch-embed-aplatypusbot", {
-                channel: "aplatypusbot",
-                width: "100%",
-                height: 480,
-                // Only needed if this page is going to be embedded on other websites
-                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
-              });
-            </script>
-          </div>
-          <div class="col-12 col-lg-4 d-flex align-items-center h-100 py-5">
-            <div class="ms-4 ppp-text">
-              <h1 class="">APlatypusBot</h1>
-              <a href="https://www.twitch.tv/aplatypusbot" target="_blank" class="btn me-2 ppp-twitch" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-twitch"></i> Twitch</a>
-              <a href="https://www.youtube.com/channel/UCz6xMvaHKKObzZH98mg2fsQ" target="_blank" class="btn me-2 ppp-youtube" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-youtube"></i> Youtube</a>
-              <div class="mt-4">
-                  <strong><u class="">Thursday 3rd March 2022 (UK)</u></strong><br>
-                  <!-- id: yyyy MM dd hh mm-->
-                  <span class="202203031300" id="">01:00pm <i class="bi bi-arrow-right-short"></i> Among Us </span><br>
-                  <span class="202203031500" id="">03:00pm <i class="bi bi-arrow-right-short"></i> ??? </span><br>
-                  <span class="202203031700" id="">05:00pm <i class="bi bi-arrow-right-short"></i> ??? </span><br>
-                  <span class="" id="">05:30pm <i class="bi bi-arrow-right-short"></i> ??? </span><br>
-                  <span class="" id="">06:30pm <i class="bi bi-arrow-right-short"></i> ??? </span><br>
+      <!-- PARTICIPANTS LIST -->
+      <div class="row container" id="deck-start" style="height: 90%;">
+          <!--/////////////////////////////////////////////////////////////////////////////-->
+          <!--START EVENTS DECK-->
+          <!--/////////////////////////////////////////////////////////////////////////////-->
+          
 
-                  <br><strong><u class="">Friday 4th March 2022 (UK)</u></strong><br>
-                  <span class="202201121500" id="">00:00am <i class="bi bi-arrow-right-short"></i> ??? </span><br>
-                  <span class="202201121530" id="">12:00pm <i class="bi bi-arrow-right-short"></i> Just Chatting </span><br>
-              </div>
-            </div>
-          </div>
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <div class="col-12 col-lg-8 d-flex d-none d-lg-block align-items-center h-100 py-5">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed-FOLDERzHD" class="mx-auto"></div>
-            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-            <script type="text/javascript">
-              new Twitch.Embed("twitch-embed-FOLDERzHD", {
-                channel: "FOLDERzHD",
-                width: "100%",
-                height: 480,
-                // Only needed if this page is going to be embedded on other websites
-                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
-              });
-            </script>
-          </div>
-          <div class="col-12 col-lg-4 d-flex align-items-center h-100 py-5">
-            <div class="ms-4 ppp-text">
-              <h1 class="">FOLDERzHD</h1>
-              <a href="https://www.twitch.tv/FOLDERzHD" target="_blank" class="btn me-2 ppp-twitch" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-twitch"></i> Twitch</a>
-              <a href="https://www.youtube.com/channel/UCMwzGBVsIDDIttL3hC-bOPQ" target="_blank" class="btn me-2 ppp-youtube" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-youtube"></i> Youtube</a>
-            </div>
-          </div>
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <div class="col-12 col-lg-8 d-flex d-none d-lg-block align-items-center h-100 py-5">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed-PorkoScratching" class="mx-auto"></div>
-            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-            <script type="text/javascript">
-              new Twitch.Embed("twitch-embed-PorkoScratching", {
-                channel: "PorkoScratching",
-                width: "100%",
-                height: 480,
-                // Only needed if this page is going to be embedded on other websites
-                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
-              });
-            </script>
-          </div>
-          <div class="col-12 col-lg-4 d-flex align-items-center h-100 py-5">
-            <div class="ms-4 ppp-text">
-              <h1 class="">PorkoScratching</h1>
-              <a href="https://www.twitch.tv/PorkoScratching" target="_blank" class="btn me-2 ppp-twitch" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-twitch"></i> Twitch</a>
-            </div>
-          </div>
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <div class="col-12 col-lg-8 d-flex d-none d-lg-block align-items-center h-100 py-5">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed-DcoltGaming" class="mx-auto"></div>
-            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-            <script type="text/javascript">
-              new Twitch.Embed("twitch-embed-DcoltGaming", {
-                channel: "DcoltGaming",
-                width: "100%",
-                height: 480,
-                // Only needed if this page is going to be embedded on other websites
-                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
-              });
-            </script>
-          </div>
-          <div class="col-12 col-lg-4 d-flex align-items-center h-100 py-5">
-            <div class="ms-4 ppp-text">
-              <h1 class="">DcoltGaming</h1>
-              <a href="https://www.twitch.tv/dcoltgaming" target="_blank" class="btn me-2 ppp-twitch" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-twitch"></i> Twitch</a>
-            </div>
-          </div>
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <div class="col-12 col-lg-8 d-flex d-none d-lg-block align-items-center h-100 py-5">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed-Maarv201" class="mx-auto"></div>
-            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-            <script type="text/javascript">
-              new Twitch.Embed("twitch-embed-Maarv201", {
-                channel: "Maarv201",
-                width: "100%",
-                height: 480,
-                // Only needed if this page is going to be embedded on other websites
-                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
-              });
-            </script>
-          </div>
-          <div class="col-12 col-lg-4 d-flex align-items-center h-100 py-5">
-            <div class="ms-4 ppp-text">
-              <h1 class="ppp-text">Maarv201</h1>
-              <a href="https://www.twitch.tv/Maarv201" target="_blank" class="btn me-2 ppp-twitch" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-twitch"></i> Twitch</a>
-            </div>
-          </div>
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <div class="col-12 col-lg-8 d-flex d-none d-lg-block align-items-center h-100 py-5">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed-pomelograce" class="mx-auto"></div>
-            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-            <script type="text/javascript">
-              new Twitch.Embed("twitch-embed-pomelograce", {
-                channel: "pomelograce",
-                width: "100%",
-                height: 480,
-                // Only needed if this page is going to be embedded on other websites
-                parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
-              });
-            </script>
-          </div>
-          <div class="col-12 col-lg-4 d-flex align-items-center h-100 py-5">
-            <div class="ms-4 ppp-text">
-              <h1 class="">pomelograce</h1>
-              <a href="https://www.twitch.tv/pomelograce" target="_blank" class="btn me-2 ppp-twitch" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-twitch"></i> Twitch</a>
-            </div>
-          </div>
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-          <!-- ############################################################### -->
-    </div>
+          <!--/////////////////////////////////////////////////////////////////////////////-->
+          <!--END EVENTS DECK-->
+          <!--/////////////////////////////////////////////////////////////////////////////-->
+      </div>
     </div>
   </section>
 
@@ -235,7 +96,8 @@
 
   <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="assets/js/main.js"></script>
   <script src="assets/js/darkToggle.js"></script>
+  <script src="assets/js/renderParticipants.js"></script>
+  <script src="assets/js/timeHighlight.js"></script>
 </body>
 </html>

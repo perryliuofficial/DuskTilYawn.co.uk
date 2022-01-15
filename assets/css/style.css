@@ -8,35 +8,20 @@
   --ppp-transition: 0.3s;
 } */
 
-html {
+html[data-theme='light'] {
+  /*Light Theme*/
   scroll-behavior: smooth;
-  --ppp-text:#F7F7FF;
-  --ppp-bg:#0C6291;
-  --ppp-scrollbar: #359fd8;
-  --ppp-scrollbar-hover: #0a4869;
-  --ppp-shadow:#0d1720;
-  --ppp-transition: 0.3s;
-  --ppp-bg-colour-1:#a63446;
-  --ppp-bg-colour-2:#0c6291;
-  --ppp-twitch:#6441a5;
-  --ppp-twitch-hover: #4a307a;
-  --ppp-youtube:#FF0000;
-  --ppp-youtube-hover:#c80303;
-  --ppp-toggle:#FF0000;
-  --ppp-toggle-hover:#c80303;
-  --ppp-border: #F7F7FF;
-}
+  --ppp-text-hover:#F7F7FF;
+  --ppp-text:#0d1720;
 
-html[data-theme='dark'] {
-  scroll-behavior: smooth;
-  --ppp-text:#000000;
-  --ppp-bg:#0C6291;
+  --ppp-bg:#f8af6e;
+  --ppp-transition: 0.3s;
+  --ppp-bg-colour-1:#fcb972;
+  --ppp-bg-colour-2:#ffd787;
+
   --ppp-scrollbar: #359fd8;
   --ppp-scrollbar-hover: #0a4869;
   --ppp-shadow:#0d1720;
-  --ppp-transition: 0.3s;
-  --ppp-bg-colour-1:#a63446;
-  --ppp-bg-colour-2:#0c6291;
   --ppp-twitch:#6441a5;
   --ppp-twitch-hover: #4a307a;
   --ppp-youtube:#FF0000;
@@ -44,6 +29,28 @@ html[data-theme='dark'] {
   --ppp-toggle:#FF0000;
   --ppp-toggle-hover:#c80303;
   --ppp-border: #000000;
+}
+
+html[data-theme='dark'] {
+  scroll-behavior: smooth;
+  --ppp-text-hover:#000000;
+  --ppp-text:#F7F7FF;
+
+  --ppp-bg:#01084f;
+  --ppp-transition: 0.3s;
+  --ppp-bg-colour-1:#631e50;
+  --ppp-bg-colour-2:#ff7954;
+
+  --ppp-scrollbar: #359fd8;
+  --ppp-scrollbar-hover: #0a4869;
+  --ppp-shadow:#0d1720;
+  --ppp-twitch:#6441a5;
+  --ppp-twitch-hover: #4a307a;
+  --ppp-youtube:#FF0000;
+  --ppp-youtube-hover:#c80303;
+  --ppp-toggle:#FF0000;
+  --ppp-toggle-hover:#c80303;
+  --ppp-border: #ffffff;
 }
 
 /* document.documentElement.setAttribute('data-theme', 'dark')
@@ -75,7 +82,7 @@ body {
 }
 
 a:hover {
-  color: var(--ppp-shadow) !important;
+  color: var(--ppp-text-hover) !important;
 }
 
 @keyframes slide {
@@ -109,10 +116,16 @@ a:hover {
 }
 
 .ppp-nav {
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background-color: var(--ppp-bg-colour-1);
   box-shadow: 0 10px 30px -10px var(--ppp-shadow);
   transition: var(--ppp-transition);
+}
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)){
+  .ppp-nav {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
 }
 
 .ppp-underline {
@@ -121,35 +134,29 @@ a:hover {
 
 .btn.ppp-twitch {
   background-color: var(--ppp-twitch);
-  color: var(--ppp-white);
+  color: var(--ppp-text);
 }
 .btn.ppp-twitch:hover {
   background-color: var(--ppp-twitch-hover);
-  color: var(--ppp-white);
+  color: var(--ppp-text);
 }
 
 .btn.ppp-youtube {
   background-color: var(--ppp-youtube);
-  color: var(--ppp-white)
+  color: var(--ppp-text)
 }
 .btn.ppp-youtube:hover {
   background-color: var(--ppp-youtube-hover);
-  color: var(--ppp-white)
+  color: var(--ppp-text)
 }
 
 .btn.ppp-dark-toggle {
   background-color: var(--ppp-toggle);
-  color: var(--ppp-white);
-  position: fixed;
-  right: 2%;
-  bottom: 5%;
+  color: var(--ppp-text);
 }
 .btn.ppp-dark-toggle:hover {
   background-color: var(--ppp-toggle-hover);
-  color: var(--ppp-white);
-  position: fixed;
-  right: 2%;
-  bottom: 5%;
+  color: var(--ppp-text);
 }
 
 .ppp-text {
@@ -166,4 +173,12 @@ a:hover {
 
 .ppp-border-colour {
   border-color: var(--ppp-border) !important;
+}
+
+.ppp-hidden {
+  display: none;
+}
+
+.ppp-white {
+  color: white !important;
 }

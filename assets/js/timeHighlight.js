@@ -11,6 +11,7 @@ function updatePage() {
         minutes = "00";
     else minutes = 30;
     var searchTime = [yyyy,mm,date,hour,minutes].join('');
+    console.log(searchTime);
     var x = document.getElementsByClassName(searchTime);
     var i;
     for (i = 0; i < x.length; i++) {
@@ -23,4 +24,4 @@ function startUpdate() {
     window.setInterval(updatePage, 60 * 1000);
 }
 
-window.onload=startUpdate;
+// window.onload=startUpdate;

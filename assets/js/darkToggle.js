@@ -1,23 +1,26 @@
-if (localStorage.getItem("darkTheme") === null) {
-  darkTheme = true;
-  localStorage.setItem('darkTheme', true);
+if (localStorage.getItem('theme') === null) {
+  theme = "dark";
+  localStorage.setItem('theme', theme);
 }
 else {
-  darkTheme = localStorage.getItem('darkTheme');
+  theme = localStorage.getItem('theme');
 }
 
 function changeColour() {
-  if (darkTheme) {
+  if (theme == "dark") {
     document.documentElement.setAttribute('data-theme', 'dark');
+    document.getElementById("darkToggle").innerHTML = "<i class=\"bi bi-moon\"></i>";
   }
   else {
     document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById("darkToggle").innerHTML = "<i class=\"bi bi-brightness-high\"></i>";
   }
 }
-changeColour();
+changeColour(theme);
 
 function darkToggle() {
-  darkTheme = !darkTheme;
-  localStorage.setItem('darkTheme', darkTheme);
+  if (theme == "dark") {theme = "light"}
+  else {theme = "dark"};
+  localStorage.setItem('theme', theme);
   changeColour();
 }
