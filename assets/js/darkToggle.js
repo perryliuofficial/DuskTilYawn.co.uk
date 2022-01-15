@@ -7,21 +7,19 @@ else {
 }
 
 function changeColour() {
-  if (darkTheme == true) {
-    document.documentElement.setAttribute('data-theme', 'dark')
+  if (darkTheme) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    console.log("set to dark");
   }
   else {
-    document.documentElement.setAttribute('data-theme', 'light')
+    document.documentElement.setAttribute('data-theme', 'light');
+    console.log("set to light");
   }
 }
-
 changeColour();
-console.log(darkTheme)
 
 function darkToggle() {
-  console.log("Button Pressed");
   darkTheme = !darkTheme;
-  console.log(darkTheme);
   localStorage.setItem('darkTheme', darkTheme);
   changeColour();
 }
