@@ -18,8 +18,8 @@ fetch('../participants.json')
                   <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
                   <div class="ms-4 ppp-text d-block">
                     <h1 class="">${data[i].name}</h1>
-                    <a href="${data[i].twitch}" target="_blank" class="btn me-2 ppp-twitch ${data[i].twitchClass}" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-twitch"></i> Twitch</a>
-                    <a href="${data[i].youtube}" target="_blank" class="btn me-2 ppp-youtube ${data[i].youtubeClass}" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-youtube"></i> Youtube</a>
+                    <a href="${data[i].twitch}" target="_blank" class="btn me-2 ppp-twitch ${data[i].twitchClass} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-twitch"></i> Twitch</a>
+                    <a href="${data[i].youtube}" target="_blank" class="btn me-2 ppp-youtube ${data[i].youtubeClass} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-youtube"></i> Youtube</a>
                     <div class="mt-4">
                         <strong><u class="">Thursday 3rd March 2022 (UK)</u></strong><br>
                         <!-- id: yyyy MM dd hh mm-->
