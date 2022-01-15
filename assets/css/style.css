@@ -168,3 +168,7 @@ a:hover {
 .ppp-border-colour {
   border-color: var(--ppp-border) !important;
 }
+
+.ppp-hidden {
+  display: none; 
+}

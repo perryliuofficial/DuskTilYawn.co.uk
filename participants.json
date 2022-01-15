@@ -1,0 +1,17 @@
+[
+    {
+        "name":"APlatypusBot",
+        "twitch":"https://www.twitch.tv/aplatypusbot",
+        "youtube":"https://www.youtube.com/channel/UCz6xMvaHKKObzZH98mg2fsQ"
+    },
+    {
+        "name":"FOLDERzHD",
+        "twitch":"https://www.twitch.tv/FOLDERzHD",
+        "youtube":"https://www.youtube.com/channel/UCMwzGBVsIDDIttL3hC-bOPQ"
+    },
+    {
+        "name":"test",
+        "twitch":"https://www.twitch.tv/test",
+        "youtubeClass":"ppp-hidden"
+    }
+]
