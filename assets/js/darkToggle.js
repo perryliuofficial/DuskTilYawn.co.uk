@@ -9,11 +9,9 @@ else {
 function changeColour() {
   if (darkTheme) {
     document.documentElement.setAttribute('data-theme', 'dark');
-    console.log("set to dark");
   }
   else {
     document.documentElement.setAttribute('data-theme', 'light');
-    console.log("set to light");
   }
 }
 changeColour();
