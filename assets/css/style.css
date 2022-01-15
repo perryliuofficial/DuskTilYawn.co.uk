@@ -116,7 +116,7 @@ a:hover {
 }
 
 .ppp-nav {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: var(--ppp-bg-colour-1);
   box-shadow: 0 10px 30px -10px var(--ppp-shadow);
   transition: var(--ppp-transition);
 }
