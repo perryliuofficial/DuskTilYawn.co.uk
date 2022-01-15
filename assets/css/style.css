@@ -23,6 +23,8 @@ html {
   --ppp-twitch-hover: #4a307a;
   --ppp-youtube:#FF0000;
   --ppp-youtube-hover:#c80303;
+  --ppp-toggle:#FF0000;
+  --ppp-toggle-hover:#c80303;
 }
 
 html[data-theme='dark'] {
@@ -40,6 +42,8 @@ html[data-theme='dark'] {
   --ppp-twitch-hover: #4a307a;
   --ppp-youtube:#FF0000;
   --ppp-youtube-hover:#c80303;
+  --ppp-toggle:#FF0000;
+  --ppp-toggle-hover:#c80303;
 }
 
 /* document.documentElement.setAttribute('data-theme', 'dark')
@@ -135,14 +139,14 @@ a:hover {
 }
 
 .btn.ppp-dark-toggle {
-  background-color: var(--ppp-twitch);
+  background-color: var(--ppp-toggle);
   color: var(--ppp-white);
   position: fixed;
   right: 2%;
   bottom: 5%;
 }
 .btn.ppp-dark-toggle:hover {
-  background-color: var(--ppp-twitch-hover);
+  background-color: var(--ppp-toggle-hover);
   color: var(--ppp-white);
   position: fixed;
   right: 2%;
