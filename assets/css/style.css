@@ -28,7 +28,7 @@ html[data-theme='light'] {
   --ppp-youtube-hover:#c80303;
   --ppp-toggle:#FF0000;
   --ppp-toggle-hover:#c80303;
-  --ppp-border: #F7F7FF;
+  --ppp-border: #000000;
 }
 
 html[data-theme='dark'] {
@@ -50,7 +50,7 @@ html[data-theme='dark'] {
   --ppp-youtube-hover:#c80303;
   --ppp-toggle:#FF0000;
   --ppp-toggle-hover:#c80303;
-  --ppp-border: #000000;
+  --ppp-border: #ffffff;
 }
 
 /* document.documentElement.setAttribute('data-theme', 'dark')
