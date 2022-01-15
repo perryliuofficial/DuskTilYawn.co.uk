@@ -8,7 +8,7 @@
   --ppp-transition: 0.3s;
 } */
 
-html {
+html[data-theme='light'] {
   /*Light Theme*/
   scroll-behavior: smooth;
   --ppp-text-hover:#F7F7FF;

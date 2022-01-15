@@ -1,24 +1,31 @@
-if (localStorage.getItem('darkTheme') === null) {
-  darkTheme = true;
-  localStorage.setItem('darkTheme', true);
+if (localStorage.getItem('theme') === null) {
+  theme = "dark";
+  localStorage.setItem('theme', theme);
+  console.log("no")
+  console.log(theme)
 }
 else {
-  darkTheme = localStorage.getItem('darkTheme');
+  theme = localStorage.getItem('theme');
+  console.log("yes")
+  console.log(theme)
 }
 
 function changeColour() {
-  
-  if (darkTheme == true) {
+  if (theme == "dark") {
     document.documentElement.setAttribute('data-theme', 'dark');
+    console.log("adsdasasdasd")
   }
-  else {
+  if (theme == "light"){
     document.documentElement.setAttribute('data-theme', 'light');
+    console.log("adssadasdassadas")
   }
 }
-changeColour();
+changeColour(theme);
+
 
 function darkToggle() {
-  darkTheme = !darkTheme;
-  localStorage.setItem('darkTheme', darkTheme);
+  if (theme == "dark") {theme = "light"}
+  else {theme = "dark"};
+  localStorage.setItem('theme', theme);
   changeColour();
 }
