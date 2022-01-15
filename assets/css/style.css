@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --ppp-white:#F7F7FF;
   --ppp-blue:#0C6291;
   --ppp-blue-hover:#0a4869;
@@ -6,11 +6,44 @@
   --ppp-blue-nav:#121f2b00;
   --ppp-blue-shadow:#0d1720;
   --ppp-transition: 0.3s;
-}
+} */
 
 html {
   scroll-behavior: smooth;
+  --ppp-white:#F7F7FF;
+  --ppp-blue:#0C6291;
+  --ppp-blue-hover:#0a4869;
+  --ppp-blue-bg:#f7f7ff0c;
+  --ppp-blue-nav:#121f2b00;
+  --ppp-blue-shadow:#0d1720;
+  --ppp-transition: 0.3s;
+  --ppp-bg-colour-1:#a63446;
+  --ppp-bg-colour-2:#0c6291;
+  --ppp-twitch:#6441a5;
+  --ppp-twitch-hover: #4a307a;
+  --ppp-youtube:#FF0000;
+  --ppp-youtube-hover:#c80303;
 }
+
+html[data-theme='dark'] {
+  scroll-behavior: smooth;
+  --ppp-white:#F7F7FF;
+  --ppp-blue:#0C6291;
+  --ppp-blue-hover:#0a4869;
+  --ppp-blue-bg:#f7f7ff0c;
+  --ppp-blue-nav:#121f2b00;
+  --ppp-blue-shadow:#0d1720;
+  --ppp-transition: 0.3s;
+  --ppp-bg-colour-1:#a63446;
+  --ppp-bg-colour-2:#0c6291;
+  --ppp-twitch:#6441a5;
+  --ppp-twitch-hover: #4a307a;
+  --ppp-youtube:#FF0000;
+  --ppp-youtube-hover:#c80303;
+}
+
+/* document.documentElement.setAttribute('data-theme', 'dark')
+document.documentElement.setAttribute('data-theme', 'light') */
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -43,7 +76,7 @@ a:hover {
 
 .bg {
   animation:slide 8s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #a63446 50%, #0c6291 50%);
+  background-image: linear-gradient(-60deg, var(--ppp-bg-colour-1) 50%, var(--ppp-bg-colour-2) 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -84,20 +117,20 @@ body {
 }
 
 .btn.ppp-twitch {
-  background-color: #6441a5;
+  background-color: var(--ppp-twitch);
   color: var(--ppp-white);
 }
 .btn.ppp-twitch:hover {
-  background-color: #4a307a;
+  background-color: var(--ppp-twitch-hover);
   color: var(--ppp-white);
 }
 
 .btn.ppp-youtube {
-  background-color: #FF0000;
+  background-color: var(--ppp-youtube);
   color: var(--ppp-white)
 }
 .btn.ppp-youtube:hover {
-  background-color: #c80303;
+  background-color: var(--ppp-youtube-hover);
   color: var(--ppp-white)
 }
 
