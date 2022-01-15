@@ -9,9 +9,11 @@ else {
 function changeColour() {
   if (theme == "dark") {
     document.documentElement.setAttribute('data-theme', 'dark');
+    document.getElementById("darkToggle").innerHTML = "<i class=\"bi bi-moon\"></i>";
   }
   else {
     document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById("darkToggle").innerHTML = "<i class=\"bi bi-brightness-high\"></i>";
   }
 }
 changeColour(theme);
