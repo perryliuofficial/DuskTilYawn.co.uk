@@ -53,7 +53,7 @@ fetch('../participants.json')
                     width: "100%",
                     height: 480,
                     layout: "video",
-                    parent: ["dusktildawn.co.uk","www.dusktildawn.co.uk"]
+                    parent: ["dusktilyawn.co.uk","www.dusktilyawn.co.uk"]
                 });
 
             }
