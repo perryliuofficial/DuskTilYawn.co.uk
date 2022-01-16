@@ -46,8 +46,7 @@
     {
         "name":"test",
         "links":{
-            "twitch":"https://www.twitch.tv/test",
-            "youtubeClass":"ppp-hidden"
+            "twitch":"https://www.twitch.tv/test"
         },
         "timetable":{
             "2022":{

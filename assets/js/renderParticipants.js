@@ -11,15 +11,22 @@ fetch('../participants.json')
         function appendData(data) {
             var mainContainer = document.getElementById("deck-start");
             for (var i = 0; i < data.length; i++) {
-                mainContainer.innerHTML += `
+
+                participantDiv = `
                 <div class="col-12 col-lg-6 align-items-center h-100 py-5">
                   <!-- Add a placeholder for the Twitch embed -->
                   <div id="twitch-embed-${data[i].name}" class="mx-auto d-none d-lg-block"></div>
                   <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
                   <br><div class="ms-4 ppp-text d-block">
                     <h1 class="">${data[i].name}</h1>
-                    <a href="${data[i].twitch}" target="_blank" class="btn me-2 ppp-twitch ${data[i].twitchClass} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-twitch"></i> Twitch</a>
-                    <a href="${data[i].youtube}" target="_blank" class="btn me-2 ppp-youtube ${data[i].youtubeClass} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-youtube"></i> Youtube</a>
+                `
+                for (var j in data[i].links){
+                    participantDiv +=`
+                    <a href="${data[i].links[j]}" target="_blank" class="btn me-2 ppp-${j} ${j} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-${j}"></i></a>
+                    `
+                }
+
+                /*temp += `
                     <div class="mt-4">
                         <strong><u class="">Thursday 3rd March 2022 (UK)</u></strong><br>
                         <!-- id: yyyy MM dd hh mm-->
@@ -46,7 +53,9 @@ fetch('../participants.json')
                         <span class="${data[i].entry20Class}" id="">${data[i].entry20Date} <i class="bi bi-arrow-right-short"></i> ${data[i].entry20Game} <br></span>
                     </div>
                   </div>
-                </div>`
+                </div>`*/
+
+                mainContainer.innerHTML += participantDiv;
 
                 new Twitch.Embed(`twitch-embed-${data[i].name}`, {
                     channel: `${data[i].name}`,
