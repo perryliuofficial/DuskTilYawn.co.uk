@@ -14,7 +14,7 @@ html[data-theme='light'] {
   --ppp-text-hover:#F7F7FF;
   --ppp-text:#0d1720;
 
-  --ppp-bg:#f8af6e;
+  --ppp-bg:#e0914b;
   --ppp-transition: 0.3s;
   --ppp-bg-colour-1:#fcb972;
   --ppp-bg-colour-2:#ffd787;
@@ -26,7 +26,7 @@ html[data-theme='light'] {
   --ppp-twitch-hover: #4a307a;
   --ppp-youtube:#FF0000;
   --ppp-youtube-hover:#c80303;
-  --ppp-toggle:var(--ppp-twitch);
+  --ppp-toggle:var(--ppp-bg);
   --ppp-toggle-hover:var(--ppp-twitch-hover);
   --ppp-border: #000000;
 }
@@ -48,7 +48,7 @@ html[data-theme='dark'] {
   --ppp-twitch-hover: #4a307a;
   --ppp-youtube:#FF0000;
   --ppp-youtube-hover:#c80303;
-  --ppp-toggle:var(--ppp-twitch);
+  --ppp-toggle:var(--ppp-bg);
   --ppp-toggle-hover:var(--ppp-twitch-hover);
   --ppp-border: #ffffff;
 }
