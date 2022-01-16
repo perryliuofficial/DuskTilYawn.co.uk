@@ -16,7 +16,7 @@ fetch('../participants.json')
                   <!-- Add a placeholder for the Twitch embed -->
                   <div id="twitch-embed-${data[i].name}" class="mx-auto d-none d-lg-block"></div>
                   <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-                  <div class="ms-4 ppp-text d-block">
+                  <br><div class="ms-4 ppp-text d-block">
                     <h1 class="">${data[i].name}</h1>
                     <a href="${data[i].twitch}" target="_blank" class="btn me-2 ppp-twitch ${data[i].twitchClass} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-twitch"></i> Twitch</a>
                     <a href="${data[i].youtube}" target="_blank" class="btn me-2 ppp-youtube ${data[i].youtubeClass} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-youtube"></i> Youtube</a>
