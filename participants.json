@@ -1,4 +1,8 @@
-[
+[   
+    {
+        "dayOne":"Thursday 3rd March 2022",
+        "dayTwo":"Friday 4th March 2022"
+    },
     {
         "name":"APlatypusBot",
         "links":{
@@ -6,7 +10,7 @@
             "youtube" :"https://www.youtube.com/channel/UCz6xMvaHKKObzZH98mg2fsQ"
         },
         "timetable":{
-            "2022":{
+            "dayOne":{
                 "1":{
                     "name":"GTA",
                     "start":"13:00",
@@ -27,7 +31,7 @@
             "youtube":"https://www.youtube.com/channel/UCMwzGBVsIDDIttL3hC-bOPQ"
         },
         "timetable":{
-            "2022":{
+            "dayOne":{
                 "1":{
                     "name":"MW2",
                     "start":"13:00",
@@ -38,7 +42,19 @@
                     "start":"20:00",
                     "end":"23:00"
                 }
-            }    
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"MW2",
+                    "start":"13:00",
+                    "end":"20:00"
+                },
+                "2":{
+                    "name":"Minecraft",
+                    "start":"20:00",
+                    "end":"23:00"
+                }
+            }     
         }
         
         
@@ -46,11 +62,10 @@
     {
         "name":"test",
         "links":{
-            "twitch":"https://www.twitch.tv/test",
-            "youtubeClass":"ppp-hidden"
+            "twitch":"https://www.twitch.tv/test"
         },
         "timetable":{
-            "2022":{
+            "dayOne":{
                 "1":{
                     "name":"MW2",
                     "start":"13:00",
