@@ -43,6 +43,10 @@ fetch('../participants.json')
                         }
                     }
                 }
+                participantDiv += `
+                </div>
+                </div>
+                </div`
 
                 mainContainer.innerHTML += participantDiv;
 
