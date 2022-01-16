@@ -22,23 +22,23 @@ fetch('../participants.json')
                 `
                 for (var j in data[i].links){
                     participantDiv +=`
-                    <a href="${data[i].links[j]}" target="_blank" class="btn me-2 ppp-${j} ${j} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-${j}"></i></a>
+                    <a href="${data[i].links[j]}" target="_blank" class="btn ppp-${j} ${j} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-${j}"></i></a>
                     `
                 }
                 //Close of the h1 tag to format links on one line
                 participantDiv +=`
                 </h1>
-                <div class="mt-4">`
+                <div class="">`
 
                 
                 for (var k in data[i].timetable){
                     participantDiv +=`
-                    <strong><u class="">${data[0][k]} (UK)</u></strong><br>
+                    <br><strong><u class="">${data[0][k]} (UK)</u></strong><br>
                     `
                     for (var l in data[i].timetable[k]){
                         if (l !== "date"){
                             participantDiv +=`
-                            <span><strong>${data[i].timetable[k][l].name}</strong> : ${data[i].timetable[k][l].start} <i class="bi bi-arrow-right-short"></i> ${data[i].timetable[k][l].end} <br></span>
+                            <span><strong>${data[i].timetable[k][l].start}</strong> <i class="bi bi-arrow-right-short"></i> ${data[i].timetable[k][l].name}<br></span>
                             `
                         }
                     }
@@ -46,7 +46,7 @@ fetch('../participants.json')
                 participantDiv += `
                 </div>
                 </div>
-                </div`
+                </div>`
 
                 mainContainer.innerHTML += participantDiv;
 
