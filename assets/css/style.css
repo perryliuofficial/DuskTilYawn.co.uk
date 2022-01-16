@@ -26,8 +26,8 @@ html[data-theme='light'] {
   --ppp-twitch-hover: #4a307a;
   --ppp-youtube:#FF0000;
   --ppp-youtube-hover:#c80303;
-  --ppp-toggle:#FF0000;
-  --ppp-toggle-hover:#c80303;
+  --ppp-toggle:var(--ppp-twitch);
+  --ppp-toggle-hover:var(--ppp-twitch-hover);
   --ppp-border: #000000;
 }
 
@@ -48,8 +48,8 @@ html[data-theme='dark'] {
   --ppp-twitch-hover: #4a307a;
   --ppp-youtube:#FF0000;
   --ppp-youtube-hover:#c80303;
-  --ppp-toggle:#FF0000;
-  --ppp-toggle-hover:#c80303;
+  --ppp-toggle:var(--ppp-twitch);
+  --ppp-toggle-hover:var(--ppp-twitch-hover);
   --ppp-border: #ffffff;
 }
 
