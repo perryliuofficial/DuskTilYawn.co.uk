@@ -201,7 +201,7 @@ a:hover {
   font-family: 'Orbitron', sans-serif;
 }
 
-@property --num {
+/* @property --num {
   syntax: "<integer>";
   initial-value: 0;
   inherits: false;
@@ -224,4 +224,4 @@ a:hover {
   to {
     --num: 3932;
   }
-}
+} */
