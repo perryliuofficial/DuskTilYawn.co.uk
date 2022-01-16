@@ -182,7 +182,7 @@ a:hover {
 .ppp-white {
   color: white !important;
 }
-.ppp-white:hover {
+.btn.ppp-white:hover {
   color: white !important;
 }
 
