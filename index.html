@@ -23,6 +23,11 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
   <!-- Custom CSS--> 
   <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
 </head>
 <body class="">
   <div class="bg"></div>
@@ -41,9 +46,6 @@
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a class="nav-link py-0 ppp-text" id="" href="/donate">Donate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link py-0 ppp-text" id="" href="/about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link py-0 ppp-text" id="" href="/history">Previous Years</a>
@@ -76,8 +78,9 @@
           <div class="ppp-text d-flex align-items-center h-100">
             <div class="text-center">
               <div class="">
+                <br class="d-lg-none">
                 <h1>Money Raised since 2021</h1>
-                <div class="col-5 mx-auto rounded-pill border" id="money-total"><span class="h1 ppp-pound"><strong>£ </strong></span></span><span class="h1 ppp-total"><strong>3932</strong></span></div>
+                <div class="col-5 mx-auto rounded-pill border" id="money-total"><span class="h1 ppp-pound"><strong>£ </strong></span></span><span class="h1 ppp-total ppp-font-digital"><strong id="numberAnimation"></strong></span></div>
               </div><br><br>
               <h1>Causes Supported</h1>
               <img class="col-2 my-auto" src="assets/img/charities/cancerresearchuk.png" height="100%" loading="lazy" alt="">
@@ -88,9 +91,9 @@
         
       </div>
     </div>
-    <h1 class="w-100 text-center d-none d-lg-block"><a href="#livestream" class="ppp-text"><i class="bi bi-arrow-down-circle" style="position: absolute; bottom: 50px;"></i></a></h1>
+    <h1 class="w-100 text-center d-none d-lg-block"><a href="#schedule" class="ppp-text"><i class="bi bi-arrow-down-circle" style="position: absolute; bottom: 50px;"></i></a></h1>
   </section>
-  <div id="livestream" class="my-5 py-5 d-none d-lg-block"></div>
+  <div id="schedule" class="my-5 py-5 d-none d-lg-block"></div>
   <section class="ppp-vh-min mb-5" id="">
     <!-- Load the Twitch embed JavaScript file -->
     <script src="https://embed.twitch.tv/embed/v1.js"></script>

@@ -12,16 +12,24 @@
         "timetable":{
             "dayOne":{
                 "1":{
-                    "name":"GTA",
-                    "start":"13:00",
-                    "end":"17:00"
+                    "name":"TBC",
+                    "start":"13:00"
                 },
                 "2":{
-                    "name":"Among Us",
-                    "start":"17:00",
-                    "end":"22:00"
+                    "name":"TBC",
+                    "start":"15:00"
                 }
-            }    
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"TBC",
+                    "start":"00:00"
+                },
+                "2":{
+                    "name":"Just Chatting",
+                    "start":"12:00"
+                }
+            }     
         }
     },
     {
@@ -33,50 +41,136 @@
         "timetable":{
             "dayOne":{
                 "1":{
-                    "name":"MW2",
-                    "start":"13:00",
-                    "end":"20:00"
+                    "name":"TBC",
+                    "start":"13:00"
                 },
                 "2":{
-                    "name":"Minecraft",
-                    "start":"20:00",
-                    "end":"23:00"
+                    "name":"TBC",
+                    "start":"15:00"
                 }
             },
             "dayTwo":{
                 "1":{
-                    "name":"MW2",
-                    "start":"13:00",
-                    "end":"20:00"
+                    "name":"TBC",
+                    "start":"00:00"
                 },
                 "2":{
-                    "name":"Minecraft",
-                    "start":"20:00",
-                    "end":"23:00"
+                    "name":"Just Chatting",
+                    "start":"12:00"
                 }
             }     
         }
-        
-        
     },
     {
-        "name":"test",
+        "name":"PorkoScratching",
         "links":{
-            "twitch":"https://www.twitch.tv/test"
+            "twitch":"https://www.twitch.tv/PorkoScratching"
         },
         "timetable":{
             "dayOne":{
                 "1":{
-                    "name":"MW2",
-                    "start":"13:00",
-                    "end":"20:00"
+                    "name":"TBC",
+                    "start":"13:00"
                 },
                 "2":{
-                    "name":"Minecraft",
-                    "start":"20:00",
-                    "end":"23:00"
+                    "name":"TBC",
+                    "start":"15:00"
                 }
-            }   
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"TBC",
+                    "start":"00:00"
+                },
+                "2":{
+                    "name":"Just Chatting",
+                    "start":"12:00"
+                }
+            }     
+        }
+    },
+    {
+        "name":"DcoltGaming",
+        "links":{
+            "twitch":"https://www.twitch.tv/PorkoScratching"
+        },
+        "timetable":{
+            "dayOne":{
+                "1":{
+                    "name":"TBC",
+                    "start":"13:00"
+                },
+                "2":{
+                    "name":"TBC",
+                    "start":"15:00"
+                }
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"TBC",
+                    "start":"00:00"
+                },
+                "2":{
+                    "name":"Just Chatting",
+                    "start":"12:00"
+                }
+            }     
+        }
+    },
+    {
+        "name":"maarv201",
+        "links":{
+            "twitch":"https://www.twitch.tv/maarv201"
+        },
+        "timetable":{
+            "dayOne":{
+                "1":{
+                    "name":"TBC",
+                    "start":"13:00"
+                },
+                "2":{
+                    "name":"TBC",
+                    "start":"15:00"
+                }
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"TBC",
+                    "start":"00:00"
+                },
+                "2":{
+                    "name":"Just Chatting",
+                    "start":"12:00"
+                }
+            }     
+        }
+    },
+    {
+        "name":"pomelograce",
+        "links":{
+            "twitch":"https://www.twitch.tv/pomelograce"
+        },
+        "timetable":{
+            "dayOne":{
+                "1":{
+                    "name":"TBC",
+                    "start":"13:00"
+                },
+                "2":{
+                    "name":"TBC",
+                    "start":"15:00"
+                }
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"TBC",
+                    "start":"00:00"
+                },
+                "2":{
+                    "name":"Just Chatting",
+                    "start":"12:00"
+                }
+            }     
         }
     }
 ]
