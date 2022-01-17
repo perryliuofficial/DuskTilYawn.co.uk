@@ -172,5 +172,33 @@
                 }
             }     
         }
+    },
+    {
+        "name":"addy_p123",
+        "links":{
+            "twitch":"https://www.twitch.tv/addy_p123"
+        },
+        "timetable":{
+            "dayOne":{
+                "1":{
+                    "name":"TBC",
+                    "start":"13:00"
+                },
+                "2":{
+                    "name":"TBC",
+                    "start":"15:00"
+                }
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"TBC",
+                    "start":"00:00"
+                },
+                "2":{
+                    "name":"Just Chatting",
+                    "start":"12:00"
+                }
+            }     
+        }
     }
 ]
