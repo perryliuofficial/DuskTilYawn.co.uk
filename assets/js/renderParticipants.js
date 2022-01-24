@@ -1,17 +1,18 @@
-fetch('../participants.json')
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                appendData(data);
-            })
-            .catch(function (err) {
-                console.log('error: ' + err);
-            });
+function renderParticipants(){
+
+    fetch('../participants.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            appendData(data);
+        })
+        .catch(function (err) {
+            console.log('error: ' + err);
+        });
         function appendData(data) {
             var mainContainer = document.getElementById("deck-start");
             for (var i =1; i<data.length; i++) {
-
                 participantDiv = `
                 <div class="col-12 col-lg-6 align-items-center h-100 py-5">
                   <!-- Add a placeholder for the Twitch embed -->
@@ -60,3 +61,6 @@ fetch('../participants.json')
 
             }
         }
+}
+
+setTimeout(renderParticipants(),30000);
