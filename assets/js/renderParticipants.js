@@ -22,7 +22,7 @@ fetch('../participants.json')
                 `
                 for (var j in data[i].links){
                     participantDiv +=`
-                    <a href="${data[i].links[j]}" target="_blank" class="btn ppp-${j} ${j} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-${j}"></i></a>
+                    <a href="${data[i].links[j]}" target="_blank" rel="noopener" class="btn ppp-${j} ${j} ppp-white" tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-${j}"></i></a>
                     `
                 }
                 //Close of the h1 tag to format links on one line
