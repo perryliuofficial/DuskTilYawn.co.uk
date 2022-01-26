@@ -85,6 +85,9 @@ body {
 a:hover {
   color: var(--ppp-text-hover) !important;
 }
+a:active {
+  color: var(--ppp-text-hover) !important;
+}
 
 @keyframes slide {
   0% {
