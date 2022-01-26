@@ -204,27 +204,6 @@ a:active {
   font-family: 'Orbitron', sans-serif;
 }
 
-/* @property --num {
-  syntax: "<integer>";
-  initial-value: 0;
-  inherits: false;
+.ppp-donate:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
-#numberAnimation {
-  animation: counter 1s ease-in-out;
-  animation-fill-mode: forwards;
-  counter-reset: num var(--num);
-}
-
-#numberAnimation::after {
-  content: counter(num);
-}
-
-@keyframes counter {
-  from {
-    --num: 0;
-  }
-  to {
-    --num: 3932;
-  }
-} */
