@@ -63,4 +63,4 @@ function renderParticipants(){
         }
 }
 
-setTimeout(renderParticipants(),30000);
+setTimeout(renderParticipants(),10000);
