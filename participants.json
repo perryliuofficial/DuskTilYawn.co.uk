@@ -12,21 +12,65 @@
         "timetable":{
             "dayOne":{
                 "1":{
-                    "name":"TBC",
+                    "name":"Forza Horizon 5",
                     "start":"13:00"
                 },
                 "2":{
-                    "name":"TBC",
+                    "name":"Overcook 2",
                     "start":"15:00"
+                },
+                "3":{
+                    "name":"Overwatch",
+                    "start":"16:30"
+                },
+                "4":{
+                    "name":"Party Games",
+                    "start":"18:30"
+                },
+                "5":{
+                    "name":"F1 2020",
+                    "start":"20:30"
+                },
+                "6":{
+                    "name":"Phasmophobia",
+                    "start":"22:00"
+                },
+                "7":{
+                    "name":"Sea of Thieves",
+                    "start":"23:30"
                 }
             },
             "dayTwo":{
                 "1":{
-                    "name":"TBC",
-                    "start":"00:00"
+                    "name":"Fifa 21",
+                    "start":"01:00"
                 },
                 "2":{
-                    "name":"Just Chatting",
+                    "name":"Mirror's Edge",
+                    "start":"03:00"
+                },
+                "3":{
+                    "name":"Zelda: BotW",
+                    "start":"04:00"
+                },
+                "4":{
+                    "name":"GTA Online",
+                    "start":"05:00"
+                },
+                "5":{
+                    "name":"Battlefield 2042",
+                    "start":"07:00"
+                },
+                "6":{
+                    "name":"Bunhouse",
+                    "start":"09:00"
+                },
+                "7":{
+                    "name":"CS:GO",
+                    "start":"10:00"
+                },
+                "8":{
+                    "name":"Party Games",
                     "start":"12:00"
                 }
             }     
@@ -41,24 +85,52 @@
         "timetable":{
             "dayOne":{
                 "1":{
-                    "name":"TBC",
+                    "name":"Forza Horizon 5",
                     "start":"13:00"
                 },
                 "2":{
-                    "name":"TBC",
-                    "start":"15:00"
+                    "name":"Overwatch",
+                    "start":"15:30"
+                },
+                "3":{
+                    "name":"Party Games",
+                    "start":"18:30"
+                },
+                "4":{
+                    "name":"F1 2020",
+                    "start":"20:30"
+                },
+                "5":{
+                    "name":"Elden Ring",
+                    "start":"22:00"
                 }
             },
             "dayTwo":{
                 "1":{
-                    "name":"TBC",
-                    "start":"00:00"
+                    "name":"Fifa 21",
+                    "start":"01:00"
                 },
                 "2":{
-                    "name":"Just Chatting",
+                    "name":"Warframe",
+                    "start":"03:00"
+                },
+                "3":{
+                    "name":"GTA Online",
+                    "start":"05:00"
+                },
+                "5":{
+                    "name":"Battlefield 2042",
+                    "start":"07:00"
+                },
+                "6":{
+                    "name":"Overwatch",
+                    "start":"10:00"
+                },
+                "7":{
+                    "name":"Party Games",
                     "start":"12:00"
                 }
-            }     
+            }        
         }
     },
     {
@@ -69,22 +141,78 @@
         "timetable":{
             "dayOne":{
                 "1":{
-                    "name":"TBC",
+                    "name":"BeamNG",
                     "start":"13:00"
                 },
                 "2":{
+                    "name":"Overcook 2",
+                    "start":"15:00"
+                },
+                "3":{
+                    "name":"Overwatch",
+                    "start":"16:30"
+                },
+                "4":{
+                    "name":"Party Games",
+                    "start":"18:30"
+                },
+                "5":{
                     "name":"TBC",
                     "start":"15:00"
                 }
             },
             "dayTwo":{
                 "1":{
-                    "name":"TBC",
-                    "start":"00:00"
+                    "name":"Break",
+                    "start":"01:00"
                 },
                 "2":{
-                    "name":"Just Chatting",
+                    "name":"Beat Saber",
+                    "start":"07:00"
+                },
+                "3":{
+                    "name":"Indie Games",
+                    "start":"08:00"
+                },
+                "4":{
+                    "name":"Cookout",
+                    "start":"09:00"
+                },
+                "5":{
+                    "name":"CS:GO",
+                    "start":"10:00"
+                },
+                "6":{
+                    "name":"Party Games",
                     "start":"12:00"
+                }
+            }     
+        }
+    },
+    {
+        "name":"quapp1",
+        "links":{
+            "twitch":"https://www.twitch.tv/quapp1"
+        },
+        "timetable":{
+            "dayOne":{
+                "1":{
+                    "name":"Sea of Thieves",
+                    "start":"13:00"
+                },
+                "2":{
+                    "name":"Splitegate",
+                    "start":"18:00"
+                },
+                "3":{
+                    "name":"TBC",
+                    "start":"21:00"
+                }
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"Tower Unite",
+                    "start":"10:30"
                 }
             }     
         }
@@ -118,10 +246,7 @@
         }
     },
     {
-        "name":"maarv201",
-        "links":{
-            "twitch":"https://www.twitch.tv/maarv201"
-        },
+        "name":"RKCP",
         "timetable":{
             "dayOne":{
                 "1":{
@@ -174,9 +299,9 @@
         }
     },
     {
-        "name":"addy_p123",
+        "name":"maarv201",
         "links":{
-            "twitch":"https://www.twitch.tv/addy_p123"
+            "twitch":"https://www.twitch.tv/maarv201"
         },
         "timetable":{
             "dayOne":{
@@ -191,7 +316,7 @@
             },
             "dayTwo":{
                 "1":{
-                    "name":"TBC",
+                    "name":"TBC MMO",
                     "start":"00:00"
                 },
                 "2":{
@@ -202,9 +327,9 @@
         }
     },
     {
-        "name":"quapp1",
+        "name":"addy_p123",
         "links":{
-            "twitch":"https://www.twitch.tv/quapp1"
+            "twitch":"https://www.twitch.tv/addy_p123"
         },
         "timetable":{
             "dayOne":{
