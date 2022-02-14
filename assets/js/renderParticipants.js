@@ -56,6 +56,8 @@ function renderParticipants(){
                     width: "100%",
                     height: 480,
                     layout: "video",
+                    autoplay: false,
+                    muted: true,
                     parent: ["dusktilyawn.co.uk","www.dusktilyawn.co.uk"]
                 });
 
