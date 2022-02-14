@@ -42,34 +42,30 @@
             },
             "dayTwo":{
                 "1":{
-                    "name":"Fifa 21",
+                    "name":"Fifa 22",
                     "start":"01:00"
                 },
                 "2":{
-                    "name":"Mirror's Edge",
+                    "name":"Zelda: BotW",
                     "start":"03:00"
                 },
                 "3":{
-                    "name":"Zelda: BotW",
-                    "start":"04:00"
-                },
-                "4":{
                     "name":"GTA Online",
                     "start":"05:00"
                 },
-                "5":{
+                "4":{
                     "name":"Battlefield 2042",
                     "start":"07:00"
                 },
-                "6":{
+                "5":{
                     "name":"Bunhouse",
                     "start":"09:00"
                 },
-                "7":{
+                "6":{
                     "name":"CS:GO",
                     "start":"10:00"
                 },
-                "8":{
+                "7":{
                     "name":"Party Games",
                     "start":"12:00"
                 }
@@ -107,7 +103,7 @@
             },
             "dayTwo":{
                 "1":{
-                    "name":"Fifa 21",
+                    "name":"Fifa 22",
                     "start":"01:00"
                 },
                 "2":{
@@ -158,7 +154,7 @@
                 },
                 "5":{
                     "name":"TBC",
-                    "start":"15:00"
+                    "start":"20:30"
                 }
             },
             "dayTwo":{
@@ -203,14 +199,22 @@
                 "2":{
                     "name":"Splitegate",
                     "start":"18:00"
-                },
-                "3":{
-                    "name":"TBC",
-                    "start":"21:00"
                 }
             },
             "dayTwo":{
                 "1":{
+                    "name":"Battlefield 4",
+                    "start":"00:00"
+                },
+                "2":{
+                    "name":"Hell Let Loose",
+                    "start":"02:30"
+                },
+                "3":{
+                    "name":"Minecraft",
+                    "start":"05:00"
+                },
+                "4":{
                     "name":"Tower Unite",
                     "start":"10:30"
                 }
@@ -220,7 +224,7 @@
     {
         "name":"DcoltGaming",
         "links":{
-            "twitch":"https://www.twitch.tv/PorkoScratching"
+            "twitch":"https://www.twitch.tv/DcoltGaming"
         },
         "timetable":{
             "dayOne":{
@@ -229,8 +233,16 @@
                     "start":"13:00"
                 },
                 "2":{
+                    "name":"Party Games",
+                    "start":"18:30"
+                },
+                "3":{
+                    "name":"F1 2020",
+                    "start":"20:30"
+                },
+                "4":{
                     "name":"TBC",
-                    "start":"15:00"
+                    "start":"22:00"
                 }
             },
             "dayTwo":{
@@ -239,14 +251,25 @@
                     "start":"00:00"
                 },
                 "2":{
-                    "name":"Just Chatting",
+                    "name":"GTA Online",
+                    "start":"05:00"
+                },
+                "3":{
+                    "name":"TBC",
+                    "start":"07:00"
+                },
+                "7":{
+                    "name":"Party Games",
                     "start":"12:00"
                 }
             }     
         }
     },
     {
-        "name":"RKCP",
+        "name":"RaphaelKCP",
+        "links":{
+            "twitch":"https://www.twitch.tv/RaphaelKCP"
+        },
         "timetable":{
             "dayOne":{
                 "1":{
@@ -254,17 +277,37 @@
                     "start":"13:00"
                 },
                 "2":{
-                    "name":"TBC",
+                    "name":"Overcooked 2",
                     "start":"15:00"
+                },
+                "3":{
+                    "name":"Skyrim",
+                    "start":"16:30"
+                },
+                "4":{
+                    "name":"Party Games",
+                    "start":"18:30"
+                },
+                "5":{
+                    "name":"Dauntless",
+                    "start":"20:30"
+                },
+                "6":{
+                    "name":"TBC",
+                    "start":"22:00"
+                },
+                "7":{
+                    "name":"Break",
+                    "start":"23:00"
                 }
             },
             "dayTwo":{
                 "1":{
                     "name":"TBC",
-                    "start":"00:00"
+                    "start":"08:30"
                 },
                 "2":{
-                    "name":"Just Chatting",
+                    "name":"Party Games",
                     "start":"12:00"
                 }
             }     
@@ -320,7 +363,7 @@
                     "start":"00:00"
                 },
                 "2":{
-                    "name":"Just Chatting",
+                    "name":"Party Games",
                     "start":"12:00"
                 }
             }     
