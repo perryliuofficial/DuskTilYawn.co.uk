@@ -222,6 +222,46 @@
         }
     },
     {
+        "name":"maarv201",
+        "links":{
+            "twitch":"https://www.twitch.tv/maarv201"
+        },
+        "timetable":{
+            "dayOne":{
+                "1":{
+                    "name":"Just Chatting",
+                    "start":"13:00"
+                },
+                "2":{
+                    "name":"TBC Story Game",
+                    "start":"14:00"
+                },
+                "3":{
+                    "name":"Party Games",
+                    "start":"18:30"
+                },
+                "4":{
+                    "name":"CS:GO",
+                    "start":"20:30"
+                }
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"TBC MMO",
+                    "start":"00:00"
+                },
+                "2":{
+                    "name":"Chatting/ Chess",
+                    "start":"10:00"
+                },
+                "3":{
+                    "name":"Party Games",
+                    "start":"12:00"
+                }
+            }     
+        }
+    },
+    {
         "name":"DcoltGaming",
         "links":{
             "twitch":"https://www.twitch.tv/DcoltGaming"
@@ -336,34 +376,6 @@
                 },
                 "2":{
                     "name":"Just Chatting",
-                    "start":"12:00"
-                }
-            }     
-        }
-    },
-    {
-        "name":"maarv201",
-        "links":{
-            "twitch":"https://www.twitch.tv/maarv201"
-        },
-        "timetable":{
-            "dayOne":{
-                "1":{
-                    "name":"TBC",
-                    "start":"13:00"
-                },
-                "2":{
-                    "name":"TBC",
-                    "start":"15:00"
-                }
-            },
-            "dayTwo":{
-                "1":{
-                    "name":"TBC MMO",
-                    "start":"00:00"
-                },
-                "2":{
-                    "name":"Party Games",
                     "start":"12:00"
                 }
             }     
