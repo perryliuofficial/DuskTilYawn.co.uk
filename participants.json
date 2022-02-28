@@ -198,7 +198,7 @@
                 },
                 "2":{
                     "name":"Splitegate",
-                    "start":"18:00"
+                    "start":"21:00"
                 }
             },
             "dayTwo":{
@@ -233,7 +233,7 @@
                     "start":"13:00"
                 },
                 "2":{
-                    "name":"TBC Story Game",
+                    "name":"Story Game",
                     "start":"14:00"
                 },
                 "3":{
@@ -255,6 +255,38 @@
                     "start":"10:00"
                 },
                 "3":{
+                    "name":"Party Games",
+                    "start":"12:00"
+                }
+            }     
+        }
+    },
+    {
+        "name":"OscillationTGE",
+        "links":{
+            "twitch":"https://www.twitch.tv/OscillationTGE"
+        },
+        "timetable":{
+            "dayOne":{
+                "1":{
+                    "name":"Rogue Games Unhinged",
+                    "start":"13:00"
+                },
+                "2":{
+                    "name":"Party Games",
+                    "start":"18:30"
+                },
+                "3":{
+                    "name":"Rogue Games Unhinged",
+                    "start":"20:30"
+                }
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"Rogue Games Unhinged",
+                    "start":"00:00"
+                },
+                "2":{
                     "name":"Party Games",
                     "start":"12:00"
                 }
@@ -392,34 +424,6 @@
                 },
                 "3":{
                     "name":"Party Games",
-                    "start":"12:00"
-                }
-            }     
-        }
-    },
-    {
-        "name":"pomelograce",
-        "links":{
-            "twitch":"https://www.twitch.tv/pomelograce"
-        },
-        "timetable":{
-            "dayOne":{
-                "1":{
-                    "name":"TBC",
-                    "start":"13:00"
-                },
-                "2":{
-                    "name":"TBC",
-                    "start":"15:00"
-                }
-            },
-            "dayTwo":{
-                "1":{
-                    "name":"TBC",
-                    "start":"00:00"
-                },
-                "2":{
-                    "name":"Just Chatting",
                     "start":"12:00"
                 }
             }     
