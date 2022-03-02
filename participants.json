@@ -358,26 +358,6 @@
         }
     },
     {
-        "name":"NickPot98",
-        "links":{
-            "twitch":"https://www.twitch.tv/nickpot98"
-        },
-        "timetable":{
-            "dayOne":{
-                "1":{
-                    "name":"TBC",
-                    "start":"13:00"
-                }
-            },
-            "dayTwo":{
-                "1":{
-                    "name":"TBC",
-                    "start":"00:00"
-                }
-            }     
-        }
-    },
-    {
         "name":"RaphaelKCP",
         "links":{
             "twitch":"https://www.twitch.tv/RaphaelKCP"
@@ -385,11 +365,11 @@
         "timetable":{
             "dayOne":{
                 "1":{
-                    "name":"TBC",
+                    "name":"Mario Party Superstars",
                     "start":"13:00"
                 },
                 "2":{
-                    "name":"Overcooked 2",
+                    "name":"Hollow Knight",
                     "start":"15:00"
                 },
                 "3":{
@@ -401,7 +381,7 @@
                     "start":"18:30"
                 },
                 "5":{
-                    "name":"Dauntless",
+                    "name":"Pokemon Unite",
                     "start":"20:30"
                 },
                 "6":{
@@ -425,6 +405,46 @@
                 "3":{
                     "name":"Party Games",
                     "start":"12:00"
+                }
+            }     
+        }
+    },
+    {
+        "name":"NickPot98",
+        "links":{
+            "twitch":"https://www.twitch.tv/nickpot98"
+        },
+        "timetable":{
+            "dayOne":{
+                "1":{
+                    "name":"TBC",
+                    "start":"13:00"
+                }
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"TBC",
+                    "start":"00:00"
+                }
+            }     
+        }
+    },
+    {
+        "name":"DeadEagle63",
+        "links":{
+            "twitch":"https://www.twitch.tv/DeadEagle63"
+        },
+        "timetable":{
+            "dayOne":{
+                "1":{
+                    "name":"TBC",
+                    "start":"13:00"
+                }
+            },
+            "dayTwo":{
+                "1":{
+                    "name":"TBC",
+                    "start":"00:00"
                 }
             }     
         }
